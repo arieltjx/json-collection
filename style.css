@@ -1,0 +1,75 @@
+body {
+  font-family: "Marola";
+  font-size: 2rem;
+  text-shadow: 10px 22px 10px purple;
+  color: white;
+  text-align:center;
+  padding: 20px;
+  margin: 0vw 9vw 0px 9vw;
+  background-position: center;
+  background-size: 135%;
+  background-image: url("https://64.media.tumblr.com/a014aa5481de8c5965a097acf6279846/72c9115c16fa30c1-79/s400x600/0a1a43f2891143627dad63be4510c515c2595da6.gifv");
+  }
+
+@font-face {
+    font-family:Marola;
+    src: url(MAROLA__.TTF);
+  }
+
+
+#gridlayout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 35px;
+  row-gap:7vw;
+}
+
+h2{
+  font-family:"Marola";
+  text-align: center;
+  color:white;
+  text-shadow: 10px 22px 10px purple;
+}
+
+.contentImage {
+  width: 90%;
+  padding-top: 15px;
+}
+
+ul li{
+  display:inline-block;
+}
+
+ul li a{
+color:white;
+padding:10px 20px;
+text-decoration: none;
+font-family: "Marola";
+}
+
+ul li a:hover{
+  background-color:#D9D9D9 0.1;
+}
+
+.items {
+  text-align: center;
+  border: 5px, groove;
+  border-radius: 25px;
+  background-color: #B9D9D9 0.1;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+p {
+  display: inline-block;
+  font-size: 20px;
+  width: 75%;
+}
